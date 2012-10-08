@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F8062B715E3132A00916B72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8062B615E3132A00916B72 /* UIKit.framework */; };
+		0F8062B915E3132A00916B72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8062B815E3132A00916B72 /* Foundation.framework */; };
+		0F8062BB15E3132A00916B72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8062BA15E3132A00916B72 /* CoreGraphics.framework */; };
+		0F8062C115E3132A00916B72 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F8062BF15E3132A00916B72 /* InfoPlist.strings */; };
+		0F8062C315E3132A00916B72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8062C215E3132A00916B72 /* main.m */; };
+		0F8062C715E3132A00916B72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8062C615E3132A00916B72 /* AppDelegate.m */; };
+		0F8062D015E3138800916B72 /* ADController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8062CE15E3138800916B72 /* ADController.m */; };
+		0F8062D115E3138800916B72 /* ADController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F8062CF15E3138800916B72 /* ADController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F8062B215E3132A00916B72 /* AddAD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddAD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8062B615E3132A00916B72 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F8062B815E3132A00916B72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F8062BA15E3132A00916B72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F8062BE15E3132A00916B72 /* AddAD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AddAD-Info.plist"; sourceTree = "<group>"; };
+		0F8062C015E3132A00916B72 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F8062C215E3132A00916B72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F8062C415E3132A00916B72 /* AddAD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AddAD-Prefix.pch"; sourceTree = "<group>"; };
+		0F8062C515E3132A00916B72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F8062C615E3132A00916B72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F8062CD15E3138800916B72 /* ADController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADController.h; sourceTree = "<group>"; };
+		0F8062CE15E3138800916B72 /* ADController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADController.m; sourceTree = "<group>"; };
+		0F8062CF15E3138800916B72 /* ADController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ADController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F8062AF15E3132A00916B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8062B715E3132A00916B72 /* UIKit.framework in Frameworks */,
+				0F8062B915E3132A00916B72 /* Foundation.framework in Frameworks */,
+				0F8062BB15E3132A00916B72 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8062A715E3132A00916B72 = {
+			isa = PBXGroup;
+			children = (
+				0F8062BC15E3132A00916B72 /* AddAD */,
+				0F8062B515E3132A00916B72 /* Frameworks */,
+				0F8062B315E3132A00916B72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F8062B315E3132A00916B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F8062B215E3132A00916B72 /* AddAD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F8062B515E3132A00916B72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F8062B615E3132A00916B72 /* UIKit.framework */,
+				0F8062B815E3132A00916B72 /* Foundation.framework */,
+				0F8062BA15E3132A00916B72 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F8062BC15E3132A00916B72 /* AddAD */ = {
+			isa = PBXGroup;
+			children = (
+				0F8062C515E3132A00916B72 /* AppDelegate.h */,
+				0F8062C615E3132A00916B72 /* AppDelegate.m */,
+				0F8062BD15E3132A00916B72 /* Supporting Files */,
+				0F8062CD15E3138800916B72 /* ADController.h */,
+				0F8062CE15E3138800916B72 /* ADController.m */,
+				0F8062CF15E3138800916B72 /* ADController.xib */,
+			);
+			path = AddAD;
+			sourceTree = "<group>";
+		};
+		0F8062BD15E3132A00916B72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F8062BE15E3132A00916B72 /* AddAD-Info.plist */,
+				0F8062BF15E3132A00916B72 /* InfoPlist.strings */,
+				0F8062C215E3132A00916B72 /* main.m */,
+				0F8062C415E3132A00916B72 /* AddAD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F8062B115E3132A00916B72 /* AddAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F8062CA15E3132A00916B72 /* Build configuration list for PBXNativeTarget "AddAD" */;
+			buildPhases = (
+				0F8062AE15E3132A00916B72 /* Sources */,
+				0F8062AF15E3132A00916B72 /* Frameworks */,
+				0F8062B015E3132A00916B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddAD;
+			productName = AddAD;
+			productReference = 0F8062B215E3132A00916B72 /* AddAD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F8062A915E3132A00916B72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0F8062AC15E3132A00916B72 /* Build configuration list for PBXProject "AddAD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0F8062A715E3132A00916B72;
+			productRefGroup = 0F8062B315E3132A00916B72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F8062B115E3132A00916B72 /* AddAD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F8062B015E3132A00916B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8062C115E3132A00916B72 /* InfoPlist.strings in Resources */,
+				0F8062D115E3138800916B72 /* ADController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F8062AE15E3132A00916B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8062C315E3132A00916B72 /* main.m in Sources */,
+				0F8062C715E3132A00916B72 /* AppDelegate.m in Sources */,
+				0F8062D015E3138800916B72 /* ADController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F8062BF15E3132A00916B72 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F8062C015E3132A00916B72 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F8062C815E3132A00916B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F8062C915E3132A00916B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F8062CB15E3132A00916B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddAD/AddAD-Prefix.pch";
+				INFOPLIST_FILE = "AddAD/AddAD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F8062CC15E3132A00916B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AddAD/AddAD-Prefix.pch";
+				INFOPLIST_FILE = "AddAD/AddAD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F8062AC15E3132A00916B72 /* Build configuration list for PBXProject "AddAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8062C815E3132A00916B72 /* Debug */,
+				0F8062C915E3132A00916B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F8062CA15E3132A00916B72 /* Build configuration list for PBXNativeTarget "AddAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8062CB15E3132A00916B72 /* Debug */,
+				0F8062CC15E3132A00916B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F8062A915E3132A00916B72 /* Project object */;
+}
